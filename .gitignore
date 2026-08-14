@@ -1,0 +1,12 @@
+node_modules/
+lib/
+coverage/
+receipts/
+*.tgz
+.env
+.env.*
+!.env.example
+.npmrc
+*.key
+*.pem
+.DS_Store
