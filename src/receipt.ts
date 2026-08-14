@@ -682,7 +682,7 @@ export function buildReceipt(input: BuildReceiptInput): Receipt {
     schemaVersion: 1,
     producer: {
       name: 'dsh-receipt',
-      version: '0.1.0',
+      version: '0.1.1',
       testedHarnessVersion: '0.1.0-rc.6',
     },
     receiptId: `receipt-${sha256(`${sessionId}\0${turnNumber}`).slice(0, 24)}`,

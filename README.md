@@ -52,7 +52,7 @@ Git installs must be allowed to run this package's `prepare` build, as described
 
 ```bash
 pnpm pack
-dsh plugin --profile web add ./dsh-receipt-0.1.0.tgz
+dsh plugin --profile web add ./dsh-receipt-0.1.1.tgz
 ```
 
 ## Output
